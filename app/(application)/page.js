@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "@/app/_components/navigations/navbar";
 import Footer from "@/app/_components/navigations/footer";
 import Contact from "@/app/_components/home/contact";
 import Questions from "@/app/_components/home/questions";
@@ -12,6 +13,7 @@ import Hero from "@/app/_components/home/hero";
 const HomePage = () => {
   return (
     <main>
+      <Navbar />
       <Hero />
       <Partners />
       <About />
