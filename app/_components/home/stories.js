@@ -54,7 +54,7 @@ const Stories = () => {
 
                   <p>
                     I was raped by my cousin consistently and to be honest i was
-                    sliding into depression, I couldn't talk to anybody because
+                    sliding into depression, I couldn&apos;t talk to anybody because
                     it felt like no one is even ready to listen but SmartRR
                     anonymous chatbot was my healer.
                   </p>

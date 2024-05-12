@@ -30,7 +30,7 @@ const Works = () => {
               <div className="col-md-4">
                 <div
                   className="mb-4 rounded-4 p-4"
-                  style={{ background: "#f9f9f9 !important" }}
+                  style={{ background: "#f9f9f9" }}
                 >
                   <h5 className="text-primary mb-3 text-center">
                     Report Incidents
