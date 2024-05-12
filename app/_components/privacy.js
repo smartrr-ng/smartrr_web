@@ -31,7 +31,7 @@ const Privacy = () => {
 
               <ul>
                 <li>
-                  It doesn’t collect your device's Internet Protocol address
+                  It doesn&apos;t collect your device&apos;s Internet Protocol address
                   (e.g. IP address)
                 </li>
 
@@ -46,7 +46,7 @@ const Privacy = () => {
               </ul>
 
               <p>
-                The Application collects your device's location, which helps the
+                The Application collects your device&apos;s location, which helps the
                 Service Provider determine your approximate geographical
                 location and make use of in below ways:
               </p>
@@ -170,7 +170,7 @@ const Privacy = () => {
               <p>
                 The Service Provider will retain User Provided data for as long
                 as you use the Application and for a reasonable time thereafter.
-                If you'd like them to delete User Provided Data that you have
+                If you&apos;d like them to delete User Provided Data that you have
                 provided via the Application, please contact them at
                 contact@bigfamily360.org and they will respond in a reasonable
                 time.

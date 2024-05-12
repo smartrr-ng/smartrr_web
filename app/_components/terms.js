@@ -13,9 +13,9 @@ const Terms = () => {
 
               <p>
                 These terms and conditions applies to the SmartRR app (hereby
-                referred to as "Application") for mobile devices that was
-                created by Big Family 360 (hereby referred to as "Service
-                Provider") as a Free service.
+                referred to as &quot;Application&quot;) for mobile devices that was
+                created by Big Family 360 (hereby referred to as &quot;Service
+                Provider&quot;) as a Free service.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ const Terms = () => {
                 which involves removing software restrictions and limitations
                 imposed by the official operating system of your device. Such
                 actions could expose your phone to malware, viruses, malicious
-                programs, compromise your phone's security features, and may
+                programs, compromise your phone&apos;s security features, and may
                 result in the Application not functioning correctly or at all.
               </p>
             </div>
@@ -105,7 +105,7 @@ const Terms = () => {
             <div className="mb-4">
               <p>
                 If you are using the application outside of a Wi-Fi area, please
-                be aware that your mobile network provider's agreement terms
+                be aware that your mobile network provider&apos;s agreement terms
                 still apply. Consequently, you may incur charges from your
                 mobile provider for data usage during the connection to the
                 application, or other third-party charges. By using the
@@ -131,7 +131,7 @@ const Terms = () => {
 
             <div className="mb-4">
               <p>
-                In terms of the Service Provider's responsibility for your use
+                In terms of the Service Provider&apos;s responsibility for your use
                 of the application, it is important to note that while they
                 strive to ensure that it is updated and accurate at all times,
                 they do rely on third parties to provide information to them so
