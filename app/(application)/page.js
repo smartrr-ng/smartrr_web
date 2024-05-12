@@ -7,10 +7,12 @@ import Stories from "@/app/_components/home/stories";
 import Works from "@/app/_components/home/works";
 import About from "@/app/_components/home/about";
 import Partners from "@/app/_components/home/partners";
+import Hero from "@/app/_components/home/hero";
 
 const HomePage = () => {
   return (
     <main>
+      <Hero />
       <Partners />
       <About />
       <Works />
