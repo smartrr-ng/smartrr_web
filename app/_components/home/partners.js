@@ -4,13 +4,16 @@ import globe from "@/public/icons/globe.png";
 import people from "@/public/icons/people.png";
 import service from "@/public/icons/service.png";
 import user from "@/public/icons/user.png";
+import unfpa from "@/public/icons/unfpa.png";
+import gcc from "@/public/icons/gcc.png";
+import plan from "@/public/icons/plan.png";
+import gbvss from "@/public/icons/gbvss.png";
+import ng from "@/public/icons/ng.png";
 import Image from "next/image";
 
 const Partners = () => {
   return (
     <section id="partners">
-      <hr className="text-primary" />
-      
       <div className="container py-5">
         <div className="row justify-content-center">
           <div className="col-md-12">
@@ -28,7 +31,51 @@ const Partners = () => {
             </div>
           </div>
 
-          <div className="col-md-10 mt-5">
+          <div className="col-md-12 mt-5 text-center overflow-x-scroll d-flex justify-content-center">
+            <Image
+              src={unfpa}
+              height={100}
+              priority
+              alt="partner"
+              className="mb-3 me-3 object-fit-cover"
+            />
+            <Image
+              src={gcc}
+              height={100}
+              priority
+              alt="partner"
+              className="mb-3 me-3 object-fit-cover"
+            />
+            <Image
+              src={plan}
+              height={100}
+              priority
+              alt="partner"
+              className="mb-3 me-3 object-fit-cover"
+            />
+            <Image
+              src={gbvss}
+              height={100}
+              priority
+              alt="partner"
+              className="mb-3 me-3 object-fit-cover"
+            />
+            <Image
+              src={ng}
+              height={100}
+              priority
+              alt="partner"
+              className="mb-3 me-3 object-fit-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <hr className="text-primary" />
+
+      <div className="container py-5">
+        <div className="row justify-content-center">
+          <div className="col-md-10">
             <div className="row">
               <div className="col-md-3">
                 <div
