@@ -10,7 +10,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section id="hero" style={{ background: "#F3F3F3" }}>
-      <div className="container py-5">
+      <div className="container pt-4 pb-5 pt-md-5">
         <div className="row justify-content-center">
           <div className="col-md-4">
             <div className="position-relative" style={{ height: 600 }}>
@@ -38,35 +38,37 @@ const Hero = () => {
                 safer, more supportive world for survivors and adolescent girls.
               </p>
 
-              <Link
-                href="https://play.google.com/store/apps/details?id=com.smartrr.smartrr"
-                target="_blank"
-                className="btn-dash bg-white me-3 py-3 px-4 text-black fw-bold d-inline"
-              >
-                <Image
-                  src={play}
-                  height={24}
-                  priority
-                  alt="icon"
-                  className="me-2"
-                />
-                Download in Playstore
-              </Link>
+              <div className="d-flex flex-column flex-md-row">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.smartrr.smartrr"
+                  target="_blank"
+                  className="btn-dash bg-white py-4 px-5 rounded-pill text-black fw-bold mb-3 me-md-3 mb-md-0"
+                >
+                  <Image
+                    src={play}
+                    height={24}
+                    priority
+                    alt="icon"
+                    className="me-md-2"
+                  />
+                  Download in Playstore
+                </Link>
 
-              <Link
-                href="https://apps.apple.com/ng/app/smartrr/id6448441128"
-                target="_blank"
-                className="btn-dash bg-white py-3 px-4 text-black fw-bold d-inline"
-              >
-                <Image
-                  src={app}
-                  height={24}
-                  priority
-                  alt="icon"
-                  className="me-2"
-                />
-                Download in Playstore
-              </Link>
+                <Link
+                  href="https://apps.apple.com/ng/app/smartrr/id6448441128"
+                  target="_blank"
+                  className="btn-dash bg-white py-4 px-5 rounded-pill text-black fw-bold"
+                >
+                  <Image
+                    src={app}
+                    height={24}
+                    priority
+                    alt="icon"
+                    className="me-2"
+                  />
+                  Download in Playstore
+                </Link>
+              </div>
             </div>
           </div>
         </div>

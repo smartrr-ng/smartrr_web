@@ -2,16 +2,16 @@
 
 import Navbar from "@/app/_components/navigations/navbar";
 import Footer from "@/app/_components/navigations/footer";
-import Privacy from "@/app/_components/privacy";
+import Terms from "@/app/_components/terms";
 
-const PrivacyPage = () => {
+const TermsPage = () => {
   return (
     <main>
       <Navbar />
-      <Privacy />
+      <Terms />
       <Footer />
     </main>
   );
 };
 
-export default PrivacyPage;
+export default TermsPage;

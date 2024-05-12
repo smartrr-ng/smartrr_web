@@ -42,12 +42,18 @@ const Footer = () => {
                 </Link>
               </li>
 
-              <li>
+              <li className="mb-2">
                 <Link
                   href="/privacy"
                   className="text-dark text-decoration-none"
                 >
                   Privacy Policy
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/terms" className="text-dark text-decoration-none">
+                  Terms & Conditions
                 </Link>
               </li>
             </ul>

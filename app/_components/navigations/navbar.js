@@ -14,13 +14,14 @@ const Navbar = () => {
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{ boxShadow: "none" }}
         >
           <HambergerMenu />
         </button>
