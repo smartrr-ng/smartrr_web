@@ -4,9 +4,10 @@ import BootstrapClient from "@/app/_components/bootstrap_client";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-const baseURL = "https://pay.northwaveng.com/";
+const baseURL = "https://smartrrapp.org/";
 const title = "SmartRR";
-const description = "SmartRR is a virtual one stop shop for Gender Based Violence and Sexual Reproductive Health. We are committed to creating a safer, more supportive world for survivors and adolescent girls.";
+const description =
+  "SmartRR is a virtual one stop shop for Gender Based Violence and Sexual Reproductive Health. We are committed to creating a safer, more supportive world for survivors and adolescent girls.";
 
 export const metadata = {
   title: title,
