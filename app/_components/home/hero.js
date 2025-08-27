@@ -51,7 +51,7 @@ const Hero = () => {
                     alt="icon"
                     className="me-md-2"
                   />
-                  Download in Playstore
+                  Download in Play Store
                 </Link>
 
                 <Link
@@ -66,7 +66,7 @@ const Hero = () => {
                     alt="icon"
                     className="me-2"
                   />
-                  Download in Playstore
+                  Download in Apple Store
                 </Link>
               </div>
             </div>
