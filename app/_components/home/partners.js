@@ -73,7 +73,7 @@ const Partners = () => {
 
       <hr className="text-primary" />
 
-      <div className="container py-5">
+      <div className="container-fluid py-5">
         <div className="row justify-content-center">
           <div className="col-md-10">
             <div className="row">
@@ -84,9 +84,9 @@ const Partners = () => {
                 >
                   <Image src={globe} width={100} alt="icon" className="mb-3" />
 
-                  <h4 className="text-primary mb-4">08</h4>
+                  <h4 className="text-primary mb-4">005</h4>
 
-                  <h5>STATES</h5>
+                  <h5>COUNTRIES</h5>
                 </div>
               </div>
 
@@ -97,7 +97,7 @@ const Partners = () => {
                 >
                   <Image src={people} width={100} alt="icon" className="mb-3" />
 
-                  <h4 className="text-primary mb-4">1000+</h4>
+                  <h4 className="text-primary mb-4">16,936+</h4>
 
                   <h5>CASES</h5>
                 </div>
@@ -115,7 +115,7 @@ const Partners = () => {
                     className="mb-3"
                   />
 
-                  <h4 className="text-primary mb-4">58</h4>
+                  <h4 className="text-primary mb-4">3,000+</h4>
 
                   <h5>SERVICE PROVIDERS</h5>
                 </div>
@@ -128,9 +128,9 @@ const Partners = () => {
                 >
                   <Image src={user} width={100} alt="icon" className="mb-3" />
 
-                  <h4 className="text-primary mb-4">2000+</h4>
+                  <h4 className="text-primary mb-4">256,333+</h4>
 
-                  <h5>USERS</h5>
+                  <h5>YOUNG PEOPLE REACHED</h5>
                 </div>
               </div>
             </div>
